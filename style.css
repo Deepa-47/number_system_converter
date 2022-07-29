@@ -97,11 +97,6 @@
     transform: scale(0.9);
   }
   
-  #input-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
   
   #error {
     display: none;
