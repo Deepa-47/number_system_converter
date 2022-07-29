@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Open+Sans:ital,wght@1,700&family=Poppins:wght@200&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+  body,
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body {
+    background-image: linear-gradient(
+      hwb(190 0% 0%) 14%,
+      #2cc0dd 46%,
+      #94d9e7 86%
+    );
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 60%;
+    background-image: linear-gradient(
+      #343446,
+      #4e4e8b,
+      #dcdceb
+
+    );
+    padding: 120px 100px;
+    border-radius: 20px;
+    border: 1px solid #dcdceb;
+  }
+  h1{
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Algerian';
+    color: #ffffff;
+  }
+  span{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'arial';
+    color: #ffffff;
+  }
+  #select-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  select {
+    margin: 10px 20px;
+    padding: 7px 10px;
+    outline: none;
+    border-radius: 5px;
+    color: #4e4e8b;
+    font-size: medium;
+    font-weight: 600;
+  }
+  
+  input {
+    background-color: #fff;
+    min-width: 350px;
+    margin: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.5s;
+    color: #4e4e8b;
+    font-size: medium;
+    font-weight: 600;
+  }
+  
+  input:focus {
+    box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.5);
+  }
+  
+  button {
+    width: 130px;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#4e4e8b;
+    transform-style: flat;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s transform;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+  
+  #input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #error {
+    display: none;
+    color: #f00;
+    font-size: small;
+    margin: 0 0 10px 30px;
+    text-align: start;
+  }
+  
